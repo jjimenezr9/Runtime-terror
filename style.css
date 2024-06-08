@@ -1,0 +1,66 @@
+/* Estilos para el carrito (puedes personalizarlos según tu diseño) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1%;
+    text-align: left;
+    background-color: #f3f3f3;
+    color: #000000;
+}
+
+/* Header Styles */
+header {
+    background-color: #330ed6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+/* Títulos */
+h5 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+    margin-top: 30px;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    color: #000000;
+    margin-top: 30px;
+}
+.producto img {
+    width: 10%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.producto h3 {
+    margin: 10px 0;
+    color: #080808;
+}
+
+.producto p {
+    color: #666666;
+}
+
+.producto button {
+    background-color: #0eaed6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.producto button:hover {
+    background-color: #A0522D;
+}
