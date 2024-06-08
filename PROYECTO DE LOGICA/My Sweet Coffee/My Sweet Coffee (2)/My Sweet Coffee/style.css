@@ -1,0 +1,172 @@
+/* Estilos para el carrito (puedes personalizarlos según tu diseño) */
+#carrito {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #8B4513;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+header button {
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: #FFC107;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Menu Styles */
+#menu {
+    text-align: center;
+}
+
+#menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8B4513;
+}
+
+#menu .producto {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: calc(33% - 40px);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.producto h3 {
+    margin: 10px 0;
+    color: #8B4513;
+}
+
+.producto p {
+    color: #666;
+}
+
+.producto button {
+    background-color: #8B4513;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.producto button:hover {
+    background-color: #A0522D;
+}
+
+/* Carrito Styles */
+#carrito {
+    display: none;
+}
+
+#carrito ul {
+    list-style: none;
+    padding: 0;
+}
+
+#carrito li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#carrito p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#carrito button {
+    background-color: #8B4513;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#carrito button:hover {
+    background-color: #A0522D;
+}
+
+/* Calculadora Styles */
+#calculadora {
+    display: none;
+    text-align: center;
+}
+
+#calculadora input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: calc(100% - 40px);
+    max-width: 400px;
+}
+
+#calculadora button {
+    background-color: #8B4513;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#calculadora button:hover {
+    background-color: #A0522D;
+}
+
+#calculadora p {
+    font-size: 18px;
+    margin: 10px 0;
+}

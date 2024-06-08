@@ -1,0 +1,71 @@
+section#principal{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+article#comandos{
+    display: inline-block;
+    border: 3px solid lightblue;
+    min-height: 300px;
+    vertical-align: top;
+    width: 25%;
+}
+article#tablero{
+    border: 3px solid lightgray;
+    display: inline-block;
+    margin: 1em;
+    padding: 1.5em;
+    text-align: center;
+    width: 40%;
+    background-color: rgba(0, 0, 150, 0.2);
+}
+article#tablero input{
+    font-size: 3em;
+    height: 100px;
+    margin: 10px;
+    width: 100px;
+    color: white;
+}
+input[type="button"]#iniciar, input[type="button"]#resetear{
+    font-size: 0.8em;
+    margin: 2em 0.5em;
+    padding: 0.7em;
+    background-color: lightblue;
+    color: darkblue;
+}
+input[type="text"]{
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0.3em;
+    padding: 0.1em;
+    color: blue;
+    background-color: lightgray;
+}
+.botonInicial{
+    color: #77d;
+    background-color: #d77;
+}
+.botonJugador1{
+    color: #fff;
+    background-color: #7d7;
+}
+.botonJugador2{
+    color: #fff;
+    background-color: #77d;
+}
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.scoreboard div {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 150px;
+    text-align: center;
+    margin: 0 10px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sweet Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagenes/chocolate.jpg">
+</head>
+<body>
+    <header>
+        <h1>My Sweet Coffee</h1>
+        <button onclick="mostrarMenu()">Menú</button>
+        <button onclick="mostrarCarrito()">Carrito</button>
+    </header>
+
+    <section id="menu">
+        <h2>Menú</h2>
+        <div class="producto">
+            <img src="imagenes/cafe.jpg" alt="Café">
+            <h3>Café</h3>
+            <p>Delicioso café recién hecho.</p>
+            <p>Precio: Q5.00</p>
+            <button onclick="agregarAlCarrito('Café')">Añadir al carrito</button>
+        </div>
+<p></p>
+        <div class="producto">
+            <img src="imagenes/panqueques.jpg" alt="Panqueques">
+            <h3>Panqueques</h3>
+            <p>Ricos panqueques con arandanos.</p>
+            <p>Precio: Q25.00</p>
+            <button onclick="agregarAlCarrito('Panqueques')">Añadir al carrito</button>
+        </div>
+<p></p>
+        <div class="producto">
+            <img src="imagenes/capuchino.jpg" alt="Capuchino">
+            <h3>Capuchino</h3>
+            <p>Delicioso capuchino cremoso</p>
+            <p>Precio: Q7.00</p>
+            <button onclick="agregarAlCarrito('Capuchino')">Añadir al carrito</button>
+        </div>
+<p></p>
+        <div class="producto">
+            <img src="imagenes/tarta de queso.jpg" alt="Tarta de queso">
+            <h3>Tarta De Queso</h3>
+            <p>Sabrosa tarta de queso con moras.</p>
+            <p>Precio: Q10.00</p>
+            <button onclick="agregarAlCarrito('Tarta de queso')">Añadir al carrito</button>
+        </div>
+ <p></p>
+        <div class="producto">
+            <img src="imagenes/muffin-4827344_1280.jpg" alt="Muffin">
+            <h3>Muffin De Chocolate</h3>
+            <p>Sabrosos muffin de chocolate </p>
+            <p>Precio: Q5.00</p>
+            <button onclick="agregarAlCarrito('Muffin')">Añadir al carrito</button>
+        </div>
+<p></p>
+        <div class="producto">
+            <img src="imagenes/Sandwich.jpg" alt="Sandwich">
+            <h3>Sandwich De Pollo</h3>
+            <p>Exquisito sandwich de pollo con papas fritas</p>
+            <p>Precio: Q40.00</p>
+            <button onclick="agregarAlCarrito('Sandwich')">Añadir al carrito</button>
+        </div>
+<p></p>
+        <div class="producto">
+            <img src="imagenes/cake-1850011_1280.jpg" alt="Pastel">
+            <h3>Pastel De Chocolate</h3>
+            <p>Sabroso y esponjoso pastel de chocolate</p>
+            <p>Precio: Q15.00</p>
+            <button onclick="agregarAlCarrito('Pastel')">Añadir al carrito</button>
+        </div>
+<p></p>
+        <div class="producto">
+            <img src="imagenes/chocolate.jpg" alt="ChocolateHot">
+            <h3>Chocolate Artesanal</h3>
+            <p>Deliciosa taza de chocolate caliente</p>
+            <p>Precio: Q10.00</p>
+            <button onclick="agregarAlCarrito('ChocolateHot')">Añadir al carrito</button>
+        </div>
+</section>
+
+    <section id="carrito" style="display: none;">
+        <h2>Carrito de compras</h2>
+        <ul id="listaCarrito"></ul>
+        <p>Total del pedido: <span id="totalPedido">Q0.00</span></p>
+        <button onclick="mostrarCalculadora()">Pagar con efectivo</button>
+        <button onclick="pagarTarjeta()">Pagar con tarjeta</button>
+        <button onclick="mostrarMenu()">Volver al menú</button>
+    </section>
+
+    <section id="calculadora" style="display: none;">
+        <h2>Procesando Pago...</h2>
+        <input type="number" id="montoAPagar" placeholder="Monto a pagar">
+        <button onclick="calcularCambio()">Realizar Pago</button>
+        <p id="resultadoCalculadora"></p>
+        <p id="totalPedidoCalculadora"></p>
+    </section>
+   <script src="script.js"></script>
+</body>
+</html>
